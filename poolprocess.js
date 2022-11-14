@@ -4,7 +4,6 @@ const fs = require('fs');
 const colors = require('colors');
 const util = require('util');
 const config = require('./config.json');
-const { MongoClient } = require('mongodb');
 const { HiveEngine } = require('@splinterlands/hive-interface');
 const schedule = require('node-schedule');
 

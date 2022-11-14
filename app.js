@@ -5,6 +5,13 @@ const config = require('./config.json');
 const schedule = require('node-schedule');
 const poolprovider = require('./poolprocess');
 
+const PROCESSSCHEDULE = config.pool_provider_setting.process_schedule;
+
 // POOL PROVIDER ADDED HERE
-const rulePoolProvider = "0 */1 * * * *";
-schedule.scheduleJob(rulePoolProvider, poolprovider.processPoolProvider);
+const rulePoolProvider = PROCESSSCHEDULE;
+const abc = async () => {
+    console.log("abc");
+};
+schedule.scheduleJob(rulePoolProvider, abc);
+
+//schedule.scheduleJob(rulePoolProvider, poolprovider.processPoolProvider);
