@@ -9,9 +9,4 @@ const PROCESSSCHEDULE = config.pool_provider_setting.process_schedule;
 
 // POOL PROVIDER ADDED HERE
 const rulePoolProvider = PROCESSSCHEDULE;
-const abc = async () => {
-    console.log("abc");
-};
-schedule.scheduleJob(rulePoolProvider, abc);
-
-//schedule.scheduleJob(rulePoolProvider, poolprovider.processPoolProvider);
+schedule.scheduleJob(rulePoolProvider, poolprovider.processPoolProvider);
