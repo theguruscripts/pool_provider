@@ -1,0 +1,29 @@
+{
+  "name": "pool-provider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theguruscripts/pool_provider.git"
+  },
+  "author": "TheGuruAsia",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@hiveio/hive-js": "^2.0.4",
+    "@splinterlands/hive-interface": "^2.3.1",
+    "colors": "^1.4.0",
+    "fs": "^0.0.1-security",
+    "node-schedule": "^2.1.0",
+    "sscjs": "^0.0.9",
+    "util": "^0.12.4"
+  }
+}
