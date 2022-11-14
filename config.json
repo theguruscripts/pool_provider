@@ -13,15 +13,15 @@
             "contract" : "tokens",
             "table" : "balances",
             "he_action" : "transfer",
-		    "he_event" : "transfer"
+            "he_event" : "transfer"
         },
         "timeout" : 5000,
         "block_timeout" : 30000,
-	    "decimal" : 1000,
+	"decimal" : 1000,
         "process_schedule" : "*/30 * * * * *"
     },
     "ssc_api" : "https://ha.herpc.dtools.dev",
-	"json_id" : "ssc-mainnet-hive",
+    "json_id" : "ssc-mainnet-hive",
     "rpc_nodes" : [
 		"https://api.deathwing.me",
 		"https://hive.roelandp.nl",
